@@ -28,7 +28,7 @@ def handle():
             return Response(request.args.get('hub.challenge'), 200)
 
         else:
-            return Response("", 403)
+            return Response("Hello World", 403)
     # POST request
     else:
         chat_bot.process_message(request.json)
