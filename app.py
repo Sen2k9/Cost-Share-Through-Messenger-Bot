@@ -48,7 +48,7 @@ def verify():
 
         return request.args["hub.challenge"], 200
 
-    return "Hello world", 200
+    return "Miraz valo gori dekho", 200
 
 
 @app.route("/", methods=["POST"])
